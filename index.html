@@ -1,19 +1,140 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>HTML TAGS</title>
-    </head>
+<html>
 
-    <body>
-        <h1>HTML Tags</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        
-        <h2>Top Three Favourite Animals</h2>
+<head>
+    <title>My Awesome Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+
+    <div id="document-structure">
+        <h1>Document Structure</h1>
+        <html>
+            <head>
+                <title>Welcome to My Site</title>
+                <meta name="description" content="A brief description of my awesome website.">
+                <link rel="icon" href="favicon.ico" type="image/x-icon">
+            </head>
+            <body>
+                <h2>Hello, World!</h2>
+                <p>This is a simple webpage to showcase various HTML tags.</p>
+            </body>
+        </html>
+    </div>
+
+    <div id="text-content">
+        <h1>Text Content</h1>
+        <h2>Random Heading</h2>
+        <p>This is a random paragraph of text. <a href="#">Click here</a> for more information.</p>
+        <strong>Bold Text</strong>
+        <em>Italicized Text</em>
+        <span>This is an inline container.</span>
+        <br>
+        <hr>
+    </div>
+
+    <div id="lists">
+        <h1>Lists</h1>
         <ul>
-            <li>Dogs</li>
-            <li>Cats</li>
-            <li>Blobfish</li>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
         </ul>
-    </body>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        <dl>
+            <dt>Term 1</dt>
+            <dd>Description 1</dd>
+            <dt>Term 2</dt>
+            <dd>Description 2</dd>
+        </dl>
+    </div>
+
+    <div id="forms">
+        <h1>Forms</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <select>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+            <label><input type="checkbox"> Check me</label>
+            <fieldset>
+                <legend>Fieldset Legend</legend>
+                <label><input type="radio" name="radioGroup"> Option 1</label>
+                <label><input type="radio" name="radioGroup"> Option 2</label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="multimedia">
+        <h1>Multimedia</h1>
+        <img src="image.jpg" alt="A beautiful image">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+        </audio>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="grouping-content">
+        <h1>Grouping Content</h1>
+        <div>This is a random div.</div>
+        <span>This is a random span.</span>
+    </div>
+
+    <div id="table">
+        <h1>Table</h1>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Footer Content</td>
+                </tr>
+            </tfoot>
+            <caption>Table Caption</caption>
+        </table>
+    </div>
+
+    <div id="document-embedding">
+        <h1>Document Embedding</h1>
+        <iframe src="https://example.com" width="100%" height="400"></iframe>
+    </div>
+
+    <div id="metadata">
+        <h1>Metadata</h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="https://www.example.com/">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </div>
+
+</body>
+
 </html>
