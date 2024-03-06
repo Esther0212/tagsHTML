@@ -4,107 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Website</title>
+    <title>Eblacas HTML Tags</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="C:/Users/User/OneDrive/Documents/tagsHTML/assets/media/favicon.ico" type="image/vnd.microsoft.icon">
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
 </head>
 
 <body>
 
     <div id="document-structure">
-        <h1>Document Structure</h1>
-        <html>
-            <head>
-                <title>Welcome to My Site</title>
-                <meta name="description" content="A brief description of my awesome website.">
-                <link rel="icon" href="favicon.ico" type="image/x-icon">
-            </head>
-            <body>
-                <h2>Hello, World!</h2>
-                <p>This is a simple webpage to showcase various HTML tags.</p>
-            </body>
-        </html>
+        <h1>HTML Tags (h1)</h1>
+        <body>
+            <h2>Hello, World! (h2)</h2>
+            <p>This is a simple webpage to showcase various HTML tags (p)</p>
+            <hr><hr>
+        </body>
     </div>
 
     <div id="text-content">
-        <h1>Text Content</h1>
-        <h2>Random Heading</h2>
-        <p>This is a random paragraph of text. <a href="#">Click here</a> for more information.</p>
-        <strong>Bold Text</strong>
-        <em>Italicized Text</em>
-        <span>This is an inline container.</span>
+        <h1>Text Content (h1)</h1>
+        <h2>This is the portion to show some text tags (h2)</h2>
+        <p>Navigate to my github account. <a href="https://github.com/Esther0212">Click here</a> for more information. (p)</p><br>
+        <strong>This is a Bold Text (strong)</strong><br>
+        <em>This is an Italicized Text (em)</em><br>
+        <span>This is an inline container (span)</span>
         <br>
-        <hr>
+        <hr><hr>
     </div>
 
     <div id="lists">
-        <h1>Lists</h1>
+        <h1>Lists (ul, ol, li, dl, dt dd)</h1>
+        <h4>Unordered List</h4>
         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>God</li>
+            <li>Family</li>
+            <li>Cats</li>
+            <li>Dogs</li>
+            <li>Music</li>
+            <li>Siya</li>
         </ul>
+        <h4>Ordered List</h4>
         <ol>
-            <li>First</li>
-            <li>Second</li>
-            <li>Third</li>
+            <li>God</li>
+            <li>Family</li>
+            <li>Cats</li>
+            <li>Dogs</li>
+            <li>Music</li>
+            <li>Siya</li>
         </ol>
+        <h4>Description List</h4>
         <dl>
-            <dt>Term 1</dt>
-            <dd>Description 1</dd>
-            <dt>Term 2</dt>
-            <dd>Description 2</dd>
+            <dt>Web</dt>
+            <dd>- the common name for the World Wide Web</dd>
+            <dt>Cat</dt>
+            <dd>- a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws</dd>
+            <dd>- it is widely kept as a pet or for catching mice, and many breeds have been developed.</dd>
         </dl>
+        <hr><hr>
     </div>
 
     <div id="forms">
-        <h1>Forms</h1>
+        <h1>Forms (form, fieldset, label, input, select, option, legend, select, button)</h1>
         <form>
+            <fieldset>
+            <h4>Label and Input</h4>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username">
-            <br>
+            <br><br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password">
-            <br>
+            <br><br>
+            <h4>Drop-down Menu</h4>
+            <label for="Gender">Gender:</label>
             <select>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
+                <option value="option1">Male</option>
+                <option value="option2">Female</option>
+                <option value="option3">Prefer not to say</option>
             </select>
-            <label><input type="checkbox"> Check me</label>
-            <fieldset>
-                <legend>Fieldset Legend</legend>
-                <label><input type="radio" name="radioGroup"> Option 1</label>
-                <label><input type="radio" name="radioGroup"> Option 2</label>
+            <br><br>
+                <legend>Login Form</legend>
+                <h4>Radiobutton</h4>
+                <label><input type="radio" name="radioGroup">login as Student</label>
+                <label><input type="radio" name="radioGroup">Login as Teacher</label>
             </fieldset>
-            <button type="submit">Submit</button>
+            <h4>Checkbox</h4>
+            <label><input type="checkbox">I agree to all the Terms & Conditions.</label>
+            <br><br>
+            <h4>Button</h4>
+            <button type="submit">Login</button>
+            <hr><hr>
         </form>
     </div>
 
     <div id="multimedia">
-        <h1>Multimedia</h1>
+        <h1>Multimedia (img, audio, source, video)</h1>
+        <h2>Image</h2>
         <img src="https://raw.githubusercontent.com/Esther0212/tagsHTML/a45b42f48e3efde9370de9f2fa6a8573ee0671df/assets/media/image.jpg" alt="A beautiful image" style="width: 400px; height: 225px;">
+        <br>
+        <h2>Audio</h2>
         <audio controls>
             <source src="https://raw.githubusercontent.com/Esther0212/tagsHTML/a45b42f48e3efde9370de9f2fa6a8573ee0671df/assets/media/audio.mp3" type="audio/mp3">
         </audio>
+        <h2>Video</h2>
         <video controls style="width: 400px; height: 225px;">
             <source src="https://raw.githubusercontent.com/Esther0212/tagsHTML/a45b42f48e3efde9370de9f2fa6a8573ee0671df/assets/media/video.mp4" type="video/mp4">
         </video>
+        <hr><hr>
     </div>
 
     <div id="grouping-content">
-        <h1>Grouping Content</h1>
-        <div>This is a random div.</div>
-        <span>This is a random span.</span>
+        <h1>Grouping Content (h1)</h1>
+        <div>The div element is often used to group sections of a web page together (div)</div>
+        <span>The span element is an inline container used to mark up a part of a text, or a part of a document. (span)</span>
+        <hr><hr>
     </div>
 
     <div id="table">
-        <h1>Product Catalog</h1>
+        <h1>Table</h1>
+        <h4>Product Catalog</h4>
         <table>
+            <caption>Check out our latest products and prices!</caption>
             <thead>
                 <tr>
-                    <th>Product ID</th>
-                    <th>Product Name</th>
-                    <th>Price</th>
+                    <th width = "100">Product ID</th>
+                    <th width = "100">Product Name</th>
+                    <th width = "100">Price</th>
+                    <th width = "100">Availability</th>
+                    <th width = "100">Rating</th>
                 </tr>
             </thead>
             <tbody>
@@ -112,33 +138,35 @@
                     <td>001</td>
                     <td>Laptop</td>
                     <td>$999</td>
+                    <td>In Stock</td>
+                    <td>4.5</td>
                 </tr>
                 <tr>
                     <td>002</td>
                     <td>Smartphone</td>
                     <td>$599</td>
+                    <td>Out of Stock</td>
+                    <td>4.2</td>
                 </tr>
                 <tr>
                     <td>003</td>
                     <td>Headphones</td>
                     <td>$99</td>
+                    <td>In Stock</td>
+                    <td>4.0</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="2">Total</td>
-                    <td>$1697</td>
+                    <td colspan="4">Total</td>
+                    <td>$2494</td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tfoot>
-            <caption>Check out our latest products and prices!</caption>
         </table>
-    </div>
-
-    <div id="document-embedding">
-        <h1>Document Embedding</h1>
-        <!-- Embed PDF using Google Docs Viewer -->
-        <iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Esther0212/tagsHTML/a45b42f48e3efde9370de9f2fa6a8573ee0671df/assets/media/pdf.pdf&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe>
-    </div>
+        <hr><hr>
+    </div>    
     
     <div id="metadata">
         <h1>Metadata</h1>
@@ -149,7 +177,7 @@
     </div>
 
     <div id="footer">
-        <p>&copy; 2024 My Awesome Website. All rights reserved. | Designed by Your Name</p>
+        <p>&copy; 2024 Eblacas HTML Tags. All rights reserved. | Designed by Esther Beuthel Eblacas</p>
     </div>
 
 </body>
